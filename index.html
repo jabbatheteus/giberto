@@ -17,6 +17,12 @@
         function logar () {
             var login = document.getelementbytd('login').value;
             var senha = document.getelementbytd('senha').value;
+            if (login == "admin" && senha == "admin") {
+                alert("sucesso!");
+                location.href = "home.html";
+            } else {
+                alert("usuário ou senha incorretos.");
+            }
         }
     </script>
 </body>
