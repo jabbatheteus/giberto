@@ -1,3 +1,11 @@
+.index {
+    background: black
+}
+
+.form {
+    position: center;
+}
+
 .body {
     background-color: black;
     color: white;
@@ -6,7 +14,7 @@
 
 .section-concontainer-about-ID-about {
     background-color: #2e2b2b;
-    position: relative;
+    position: absolute;
 }
 
 .container.about.catalog {
