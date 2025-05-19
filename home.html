@@ -3,13 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jabba The Hub</title>
 </head>
 <body>
+    <function>
+        <script>
+            if (login == "admin" && senha == "admin"){
+                return true;
+            }
+
+            if (receive == "tru") {
+                changetopage("home.html");
+            }
+        </script>
+
+    </function>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <section class="container about ID about"> 
         <div class="main-title">
             <h1>Jabba, The Hub</h1>
             <img src="https://cdn0.iconfinder.com/data/icons/famous-character-vol-1-colored/48/JD-38-512.png" alt="Jabba The Hub" width="150px">
+            <style>
+                .container {
+                    padding: 5px;
+                }
+                .main-title {
+                    text-align: right;
+                    background-color: rgb(37, 34, 34);
+                }
+                .cat {
+                    margin: 10px 0;
+                }
+                .cat img {
+                    margin: 5px;
+                }
+
+            </style>
         </div>
     </section>
 <section class="container about catalog">
@@ -19,6 +51,11 @@
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPnGQqpwFpanugrs_Vxm5_yVe_zZG2M3dcBNXwF-J07NQaS5obQKkdkEkGy3uTxRcsOxZiKhaV0UGcfTVf_lO4HjOEpb1Jj2Orj4LwyyamWbrt7AgVpQ48-2u7HHgJMFN2K0btaq-5IHft9nNGcXpsmoaqSWvFz4zmYQBVoJmW4M9QpplnDho2SxgD7HE/s1000/FygRr1OWIAAcAYZ.jpeg" alt="Beau Tem Medo" width="200px" height="150px">        
         <img src="https://www.criticfilm.com/wp-content/uploads/2024/06/la-haine.jpg" alt="La Haine" width="200px"  height="150px">
         <img src="https://http2.mlstatic.com/D_NQ_NP_690419-MLA73928841247_012024-B.webp" alt="Um Drink no Inferno" width="200px"  height="150px">
+        <style>
+            .cat.pop {
+                background-color: rgb(27, 25, 25);
+            }
+        </style>
     </div>
     <div class="cat Tarantino">
         <h3>Tarantino</h3>
@@ -26,6 +63,11 @@
         <img src="https://myhotposters.com/cdn/shop/products/HP2642_ffa617fb-4e89-4df9-8700-c31dab3119da_1024x1024.jpg?v=1571444880" alt="Cães de Aluguel" width="200px"  height="150px">
         <img src="https://i0.wp.com/br.nacaodamusica.com/wp-content/uploads/2020/06/kill-bill.jpg" alt="kill bill" width="200px"  height="150px">
         <img src="https://jornadageek.ig.com.br/wp-content/uploads/2025/05/Os-Oito-Odiados-scaled.png" alt="Os Oito Odiados" width="200px"  height="150px">
+        <style>
+            .cat.Tarantino {
+                background-color: rgb(27, 25, 25);
+            }
+        </style>
     </div>
     <div class="cat Kubrick">
         <h3>Kubrick</h3>
@@ -33,6 +75,11 @@
         <img src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/a0c647f6-2a32-4a5d-8659-d4db83a35e3b/e12d110d81463b6b2f3d05822788d20eec8aa3c8.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom" alt="2001: Uma Odisseia no Espaço" width="200px"  height="150px">
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLkdQqsoy3c5dV-r9kAeCwi7YjyEHuoNRoDB3_k91qIFUYKBBtzSVYdMLsHUkcaoR_wNoS6yKrrJnGXIzEfeydMdr4ZFSwxsJ4sqoYV7iYPHa-V0w8T6u7RIWbAluzsoYnLKb729itPfo/w1200-h630-p-k-no-nu/full+metal+jacket.png" alt="Nascido Para Matar" width="200px"  height="150px">
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixVwg8sK5tTz6ul6N8unUrFoipHnCielXcEEpApUPbnzTl063j8vq-NO_6jMccZf2yaYUbVQS095MBNGp2unZrGHVF8DB29xQuMHn3YfgCb-ZyuZw3WsUvk99MQAV_0DeFzmdMkom-QnM/s1600/a+clockwork+orange.png" alt="Laranja Mecânica" width="200px"  height="150px">
+        <style>
+            .cat.Kubrick {
+                background-color: rgb(27, 25, 25);
+            }
+        </style>
     </div>
     <div class="cat Scorese">
         <h3>Scorsese</h3>
@@ -40,13 +87,23 @@
         <img src="https://www.blogo.it/app/uploads/sites/3/2025/03/taxi-driver-torna-al-cinema-recensione-e-tutto-quello-che-ce-da-sapere-sul-film-di-scorsese-con-rober-de-niro-e-jodie-foster-10.jpg" alt="Taxi Driver" width="200px"  height="150px">
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgKBAzkbknNd0G1N0c8AwaCLUhxCeRdA0RxpLymnO9pjk1wMsW-M6gCKsRlh8n9JuiFZ4R98AdQYKx4iyaU5rgyQ2Wn8WLLK8LyHdx5RB6gZClKhaNMAa3LlJWFcDlwKZDXi5Lge3cJIU/s1600/the+king+of+comedy.png" alt="O Rei da Comédia" width="200px"  height="150px">
         <img src="https://wallpapers.com/images/hd/the-wolf-of-wall-street-5yh17izfpouw7xrg.jpg" alt="O Lobo de Wall Street" width="200px"  height="150px">
+        <style>
+            .cat.Scorese {
+                background-color: rgb(27, 25, 25);
+            }
+        </style>
     </div>
     <div class="cat Eggers">
         <h3>Robbert Eggers</h3>
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3rCrGhyphenhyphenoMv4yqtJ2GZn-FaYZqXU7WTV1cAJRG-gxepBhn_K5_qScb4by_P92Hxcq21zGD1nDJ2ENcRqxJ2gn1OyM73np7bcSjVKpxWYYmESzYf-40jRPmi2GfvTG9R561MbXk7CURGtk/s1600/o+farol.png" alt="O Farol" width="200px"  height="150px">
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXrgv74Jui91IG_QlOEpJs0Ub3xBZ9bh62urxqlAK6vuFTT9uJOhNVNmvXhwoZkaeEL7UXW-270naYSOvuSaOReRbPDYObh0iE0hDX7zPLPl5hs6nQCM74jPl14mwVNK-ezL83NX3783O5/s1600/witch1.jpg" alt="A Bruxa" width="200px"  height="150px">
         <img src="https://www.nerdfusao.com.br/wp-content/uploads/2022/08/northman.jpg" alt="O Homem do Norte" width="200px"  height="150px">
-        <img src="https://grafismasakini.com/uploads/2025/02/eb5678ce7effe54da144063fe2fb9bf7_f8c9f454a24caed9babb2af31cea9994_compressed.jpeg" alt="Nosferatu" width="200px"  height="150px">
+        <img src="https://www.heavenofhorror.com/wp-content/uploads/2024/12/Nosferatu-2024-horror-review-1200x675.jpg" alt="Nosferatu" width="200px"  height="150px">
+        <style>
+            .cat.Eggers {
+                background-color: rgb(27, 25, 25);
+            }
+        </style>
     </div>
 </section>
 </body>
